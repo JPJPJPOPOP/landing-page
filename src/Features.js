@@ -9,21 +9,21 @@ export default class Features extends Component {
         <div className="icon-centered">
           <div className="icon-section">
             <div className="icon">
-            <FontAwesomeIcon icon={faDesktop} />
+              <FontAwesomeIcon icon={faDesktop} />
             </div>
             <div className="icon-title">Fully Responsive</div>
             <div>This theme will look great on any device, no matter the size!</div>
           </div>
           <div className="icon-section">
             <div className="icon">
-            <FontAwesomeIcon icon={faLayerGroup} />
+              <FontAwesomeIcon icon={faLayerGroup} />
             </div>
             <div className="icon-title"> Bootstrap 4 Ready</div>
             <div>Featuring the latest build of the new Bootstrap 4 framework!</div>
           </div>
           <div className="icon-section">
             <div className="icon">
-            <FontAwesomeIcon icon={faCheckCircle} />
+              <FontAwesomeIcon icon={faCheckCircle} />
             </div>
             <div className="icon-title">Easy to Use</div>
             <div>Ready to use with your own content, or customize the source files!</div>

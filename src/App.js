@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Signupform from './Signupform';
 import Features from './Features';
+import Showcase from './Showcase';
+import Testimonials from './Testimonials';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         </div>
       </header>
       <Features />
+      <Showcase />
+      <Testimonials />
     </div>
   );
 }
