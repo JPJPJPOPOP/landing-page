@@ -10,7 +10,9 @@ function App() {
     <div className="App">
       <header className="header">
         <div className="signuptext">
-          <div>Build a landing page for your business or project and generate more leads!</div>
+          <div className="signuptitle">
+            Build a landing page for your business or project and generate more leads!
+          </div>
           <Signupform/>
         </div>
       </header>

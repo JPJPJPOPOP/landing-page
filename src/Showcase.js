@@ -5,7 +5,8 @@ export default class Showcase extends Component {
     render() {
         return (
             <div className="sidetext-container">
-                <div className="sidetext">
+                <img className="sideimg" src={showcase1} alt="showcase1" style={{float: "right"}}/>
+                <div className="sidetext" style={{float: "left"}}>
                     <div className="sidetext-inner">
                         <div className="sidetext-title">Fully Responsive Design</div>
                         When you use a theme created by Start Bootstrap,
@@ -13,9 +14,8 @@ export default class Showcase extends Component {
                         whether it's a phone, tablet, or desktop the page will behave responsively!
                     </div>
                 </div>
-                <img className="sideimg" src={showcase1} alt="showcase1"/>
-                <img className="sideimg" src={showcase1} alt="showcase1"/>
-                <div className="sidetext">
+                <img className="sideimg" src={showcase1} alt="showcase1" style={{float: "left"}}/>
+                <div className="sidetext" style={{float: "right"}}>
                     <div className="sidetext-inner">
                         <div className="sidetext-title">Updated For Bootstrap 4</div>
                         Newly improved, and full of great utility classes,
@@ -23,7 +23,8 @@ export default class Showcase extends Component {
                         All of the themes on Start Bootstrap are now using Bootstrap 4!
                     </div>
                 </div>
-                <div className="sidetext">
+                <img className="sideimg" src={showcase1} alt="showcase1" style={{float: "right"}}/>
+                <div className="sidetext" style={{float: "left"}}>
                     <div className="sidetext-inner">
                         <div className="sidetext-title">Easy to Use & Customize</div>
                         Landing Page is just HTML and CSS with a splash of SCSS for users
@@ -31,7 +32,6 @@ export default class Showcase extends Component {
                         just add your content and images, and your new landing page will be ready to go!
                     </div>
                 </div>
-                <img className="sideimg" src={showcase1} alt="showcase1"/>
             </div>
         );
     }
